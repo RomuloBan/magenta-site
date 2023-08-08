@@ -98,6 +98,7 @@
 
 @layer header {
   .wrapper {
+    margin: 0 auto;
     max-width: 375px;
     border: 1px solid white;
   }
