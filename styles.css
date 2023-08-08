@@ -39,6 +39,7 @@
     font-size: var(--base-size);
     margin: 0;
     padding: 0;
+    text-align: center;
   }
 
   p {
@@ -110,4 +111,8 @@
   header img {
     max-width: 150px;
   }
+}
+
+@layer tour {
+
 }
