@@ -102,4 +102,11 @@
     max-width: 375px;
     border: 1px solid white;
   }
+  header {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  header img {
+    max-width: 150px;
+  }
 }
