@@ -118,5 +118,6 @@
   }
   .club {
     color: var(--lime);
+    font-size: var(--h5);
   }
 }
