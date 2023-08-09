@@ -95,6 +95,10 @@
     margin: 0;
     padding: 0;
   }
+  blockquote: {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @layer header {
@@ -119,5 +123,14 @@
   .club {
     color: var(--lime);
     font-size: var(--h5);
+  }
+}
+
+@layer reviews {
+  .imggroup {
+    padding-top: 2rem;
+  }
+  .star {
+    width: 18px;
   }
 }
