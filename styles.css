@@ -131,13 +131,6 @@
     .wrapper {
       max-width: 800px;
     }
-    main {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-    }
-    main h1 {
-      grid-area: 1 / 1 / 2 / 4;
-    }
   }
 }
 
@@ -166,5 +159,12 @@
   }
   .star {
     width: 18px;
+  }
+  @media (min-width: 800px) {
+    aside {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
   }
 }
