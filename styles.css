@@ -137,12 +137,17 @@
   }
 }
 @layer tour {
+  main p {
+    font-family: var(--sans-serif);;
+  }
   .date {
     color: var(--tan);
+    font-family: var(--cursive);
   }
   .club {
     color: var(--lime);
     font-size: var(--h5);
+    font-family: var(--serif);
   }
   .button-primary {
     display: inline-block;
