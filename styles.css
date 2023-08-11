@@ -161,6 +161,7 @@
     text-decoration: none;
     font-weight: 600;
     white-space: nowrap;
+    font-family: var(--serif);
   }
   .button-primary:hover {
     color: var(--cyan);
