@@ -19,7 +19,7 @@
     --cyan: #7de6f4;
     --black: #050d14;
     --shadow: #050d1480;
-    --gradient: linear-gradient(180deg, var(--black, 0%, var(--teal), 100%);
+    --gradient: linear-gradient(180deg, var(--black) 0%, var(--teal) 100%);
 
     /* fonts */
     --sans-serif: "Poppins", sans-serif;
@@ -39,7 +39,7 @@
     font-family: var(--sans-serif);
     font-weight: 300;
     line-height: 1.75;
-    background-color: var(--teal);
+    background: var(--gradient);
     color: var(--white);
     font-size: var(--base-size);
     margin: 0;
