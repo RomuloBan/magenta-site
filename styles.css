@@ -19,9 +19,12 @@
     --cyan: #7de6f4;
     --black: #050d14;
     --shadow: #050d1480;
+    --gradient: linear-gradient(180deg, var(--black, 0%, var(--teal), 100%);
 
     /* fonts */
     --sans-serif: "Poppins", sans-serif;
+    --serif: "Cormorant Garamond", serif;
+    --cursive: Pacifico, cursive;
   }
   html {
     box-sizing: border-box;
