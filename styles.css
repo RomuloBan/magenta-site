@@ -120,7 +120,7 @@
     text-transform: uppercase;
   }
 }
-@layer header-banner-tour {
+@layer header-banner{
   .wrapper {
     max-width: 375px;
     margin: 0 auto;
@@ -133,6 +133,8 @@
   header img {
     max-width: 150px;
   }
+}
+@layer tour {
   .date {
     color: var(--tan);
   }
