@@ -36,7 +36,7 @@
   }
 
   body {
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
     font-weight: 300;
     line-height: 1.75;
     background: var(--gradient);
@@ -143,6 +143,9 @@
   .club {
     color: var(--lime);
     font-size: var(--h5);
+  }
+  .button-primary {
+
   }
 }
 @layer reviews {
