@@ -24,7 +24,7 @@
     /* fonts */
     --sans-serif: "Poppins", sans-serif;
     --serif: "Cormorant Garamond", serif;
-    --cursive: Pacifico, cursive;
+    --cursive: "Pacifico", cursive;
   }
   html {
     box-sizing: border-box;
