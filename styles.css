@@ -157,6 +157,10 @@
     font-weight: 600;
     white-space: nowrap;
   }
+  .button-primary:hover {
+    color: var(--cyan);
+    border-color: var(--cyan);
+  }
 }
 @layer reviews {
   .imggroup {
